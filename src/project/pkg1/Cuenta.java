@@ -49,12 +49,12 @@ public class Cuenta {
             this.cantidad+=cantidad;
         }
     }
-    public void retirar(float cantidad){
-        if(this.cantidad-cantidad>=0){
-            //this.cantidad=this.cantidad-cantidad;
-            this.cantidad-=cantidad;
-        }else{
-            this.cantidad=0;
-        }
-    }
+//    public void retirar(float cantidad){
+//        if(this.cantidad-cantidad>=0){
+//            //this.cantidad=this.cantidad-cantidad;
+//            this.cantidad-=cantidad;
+//        }else{
+//            this.cantidad=0;
+//        }
+//    }
 }
